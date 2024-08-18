@@ -1,5 +1,10 @@
 # externalOTPResetSFDC
  
+This repository contains the Salesforce side of an end-to-end solution designed to facilitate a password reset process via an external One-Time Password (OTP) using Server Side Javascript. This solution is part of an integration between Salesforce and an external Node.js application hosted on Heroku, leveraging Salesforce's JWT Bearer Flow for secure communication.
+
+This repository is part of a two-repository solution. The Node.js code can be found in the externalOTPResetHerokuNodejs repository at https://github.com/mikeletulle/externalOTPResetHerokuNodejs
+
+In Salesforce: 
 1.1 Create a Connected App in Salesforce
 Navigate to: Setup → App Manager → New Connected App.
 
@@ -24,9 +29,6 @@ OAuth Policies (after saving):
 Permitted Users: Admin approved users are pre-authorized.
 IP Relaxation: Relax IP restrictions (if applicable based on security requirements).
 Refresh Token Policy: Set the refresh token policy to your needs (e.g., Refresh token is valid until revoked).
-
-
-
 
 
 1.2. Create the Custom Object: Password_Reset_Token__c
