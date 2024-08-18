@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>mletulle@salesforce.com</contactEmail>
+    <iconUrl>https://login.salesforce.com/logos/Custom/Gear_Red/icon.svg</iconUrl>
+    <label>MarketingCloudOTPApp</label>
+    <logoUrl>https://login.salesforce.com/logos/Custom/Gear_Red/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/services/oauth2/success</callbackUrl>
+        <certificate>MIID+zCCAuOgAwIBAgIUUtSjB/htwsAyTQGXxh8XGSmSaiIwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAlVTMQ4wDAYDVQQIDAVUZXhhczEPMA0GA1UEBwwGQXVzdGluMRMwEQYDVQQKDApTYWxlc2ZvcmNlMQwwCgYDVQQLDANNQUUxETAPBgNVBAMMCG1sZXR1bGxlMSYwJAYJKoZIhvcNAQkBFhdtbGV0dWxsZUBzYWxlc2ZvcmNlLmNvbTAeFw0yNDA4MTcxNzQ0MzFaFw0yNTA4MTcxNzQ0MzFaMIGMMQswCQYDVQQGEwJVUzEOMAwGA1UECAwFVGV4YXMxDzANBgNVBAcMBkF1c3RpbjETMBEGA1UECgwKU2FsZXNmb3JjZTEMMAoGA1UECwwDTUFFMREwDwYDVQQDDAhtbGV0dWxsZTEmMCQGCSqGSIb3DQEJARYXbWxldHVsbGVAc2FsZXNmb3JjZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCydka1LAQR4MlRE9j1xPkPIk2EJNhGnEUm0i2X1uSIUH9Zq6tjGR/ZKqRYAZY/+VMWOr+JF9a1+mfmr/mKIRHkV7nTTNOIUJYwZHS6Gyy5hgKrF5tuQdqGKBLq/upllk9WO6Zl3w9askREHRheYHCw6JR872bH5owVEPcNgbzIo2EC13dYOkNlv9HvoymfuH3sDVVV+1DTOcmSaTDdw1ZY4z8kdxF6v5quffiN6DdreKrGdMD9YwBRywYysDlOa3Aw3h4UKxKhWmZGaCuMkicrltcCSvzCD4iUgHcbViud0tW5Vavcf1ltqIH7kKC7IPTKR/Qa65gXU2gNPov9S3s1AgMBAAGjUzBRMB0GA1UdDgQWBBRFP8KNaNjCJY4PK8UdI9bv3jHFCzAfBgNVHSMEGDAWgBRFP8KNaNjCJY4PK8UdI9bv3jHFCzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCGRvm78AfjT5tgujNQI8dF55IbNlAtLpH/0b4gi7R2T4ct1e1udRg7gRuUg4aBj4wxVKsdQt6fU5sEp4GIiNWDqk5weVuD5PrwcOAynRN7VjmNRq6tl8l/ONYCVnYNEa3sMModNly72fqPYjKVrkzwu0AxnyUTSYxxmTvI/Z7cH+j0na4dX6ssvFJh5lBHQu8embsE+oT/d/pWR1n99Dz8FfB22Kxo4kRQ8tSZhlgfLJG78fU6CMAwZGdG+VfHepRvRq1VQERyUBar9latydTXYm71Fuch/ciAyM4w5fCKKSgRhsLZ5obCYV6/gNgWnKK1uAvJH5mBxubkYXR0tu2c</certificate>
+        <consumerKey>3MVG9Gm6vbdjgMWTzmptOaQNO8RDVRUyVAdt6l_cNM84yFrD88JRJfcY3B9Y.cYNyKeNxN6tm4S8poipdp3vn</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>true</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>true</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>true</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>true</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>true</isTokenExchangeEnabled>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>BYPASS</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>
